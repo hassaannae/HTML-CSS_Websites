@@ -1,0 +1,88 @@
+/* CSS Reset */
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/dumbbell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+    background-size: cover;
+}
+.left div{
+    text-align: center;
+    position: relative;
+    bottom: 18px;
+    color: #e8e8e8;
+    font-size: 11px;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 34px;
+}
+.navbar li a:hover, a:active{
+    color: black;
+    text-decoration: underline;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+.btn{
+    margin: 0px 10px;
+    color: black;
+    padding: 15px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    margin: 108px 2px;
+    padding: 54px 587px;
+    width: 33%;
+    border-radius: 22px;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 25px;
+    border: 2px solid black;
+    margin: 30px auto;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 21%;
+    margin: auto;
+    padding: 12px;
+}
