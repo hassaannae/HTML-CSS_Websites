@@ -1,0 +1,50 @@
+/* Navigation  */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+
+/* Home  */
+#home{
+    height: 450px;
+    padding: 2px 50px;
+}
+
+#home::before{
+    height: 550px;
+}
+
+#home p{
+    font-size: 1rem;
+}
+
+/* Services  */
+#services{
+    flex-direction: column;
+}
+
+/* Client  */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Contact  */
+#contactbox {
+    width: 100%;
+}
+
+/* Footer  */
+
+/* Utility Classes */
+.h-pri{
+    font-size: 1rem;
+}
